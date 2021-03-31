@@ -299,8 +299,8 @@ export default function Details() {
         <div className="w-screen masonry bg-white px-2 mt-4 mb-14">
           {photo.map((item) => (
             <Link href="/details">
-              <a key={item.id} className="mb-1">
-                <div className="">
+              <a key={item.id} className="">
+                <div className="mb-2">
                   <div className="">
                     <img
                       className="h-full w-full rounded-2xl"
