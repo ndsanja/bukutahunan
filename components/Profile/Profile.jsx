@@ -266,7 +266,7 @@ export default function Profile() {
             <Link href="/profileDetail">
               <a>
                 <div className="bg-gray-200 px-4 py-2 flex items-center justify-center rounded-full font-medium text-gray-700">
-                  Details
+                  Detail
                 </div>
               </a>
             </Link>

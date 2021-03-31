@@ -153,7 +153,7 @@ export default function Timeline() {
       <div className="w-screen masonry bg-white px-2 mt-2 mb-14">
         {photo.map((item) => (
           <Link href="/details">
-            <a key={item.id} className="mb-1">
+            <a key={item.id} className="mb-2">
               <div className="">
                 <div className="">
                   <img
