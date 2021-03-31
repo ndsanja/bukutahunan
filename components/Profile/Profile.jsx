@@ -23,6 +23,11 @@ export default function Profile() {
       url:
         "https://images.unsplash.com/photo-1521656958087-ed26dfcf5a30?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHNjaG9vbCUyMGdyYWR1YXRpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
+    {
+      id: 3,
+      url:
+        "https://lh3.googleusercontent.com/w9cC9eclImGHGa1p7E_l3d6VhTPzfOF9DtrGkSxcN__aEHHpd9Qb_sRwfvELUVrwd-nElC7JlP2sswpC9ivxl0TouKpLb4SUu_ofoefrKdF-hCkOmk7d-PevfyDWFT0fDVUM53Hd6ysfL6p1dnJRPtktjUL7ZDkTnPczd1R99ChfCL3_C2ztWjHDqL0JkfB4dtnJoiVZyVIx09YfgtO4fZb3O_vfqroDPGCOhWoBL4FH6ssFvL9wQj9HJJ5F7MRD1UvOww33N8Q64MysGyvSbu6I9F_vCEFAXrUPYyWjjzHbaUfJcNE2PzDBnWt09tdNKMDzKvOEhElXRvBI9B1eocSMyoGAGuHpS-U-TUySRQ0lRHEEWw0l-pBulFZbo2fhEG77vcccvoVAGSMNE8Dtl9vV63Rk6SE7eyis_L0DRDMhg4tuQGG92JfgAiM8aiaufC01JMBSUM9gpaESVqoPlIGD7PNtZGAwM3sL0AE1KmTbuos_pGFPw_Or3rFiNSFb33Mzz2Rkyv2eHTWzv49Z0JIVg5fFSfpdlziAeR95aZUUGTWe2E4RQ_ZyI9fGcsVBbJPCjX3NlZ4IlaB22yF33TZKcKtY3CHgiRNtjiOyCaq1ubVmcJEo9TtdUJxNY49xMp9LF29r7k6IEhDpvyubdObqQe5SpoWKrDqD4kIvXliMjTPwNFiZYulyCt7YtOgqgQQqmIC3rFTUZ9xDZ5C15g=w392-h587-no?authuser=0",
+    },
   ];
 
   const [detail, setDetail] = useState(false);
