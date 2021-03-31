@@ -1,6 +1,7 @@
 import Content from "./Content/Content";
 import * as Icon from "../components/Icon";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Timeline() {
   const [tagAktive, setTabAktive] = useState("Semua");
@@ -65,20 +66,14 @@ export default function Timeline() {
       url:
         "https://images.unsplash.com/photo-1616974071885-e81eff99c3bc?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI3fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
+
     {
-      id: 4,
+      id: 5,
       title: "Lorem",
       from: "XII - IPS 2",
       url:
-        "https://lh3.googleusercontent.com/w9cC9eclImGHGa1p7E_l3d6VhTPzfOF9DtrGkSxcN__aEHHpd9Qb_sRwfvELUVrwd-nElC7JlP2sswpC9ivxl0TouKpLb4SUu_ofoefrKdF-hCkOmk7d-PevfyDWFT0fDVUM53Hd6ysfL6p1dnJRPtktjUL7ZDkTnPczd1R99ChfCL3_C2ztWjHDqL0JkfB4dtnJoiVZyVIx09YfgtO4fZb3O_vfqroDPGCOhWoBL4FH6ssFvL9wQj9HJJ5F7MRD1UvOww33N8Q64MysGyvSbu6I9F_vCEFAXrUPYyWjjzHbaUfJcNE2PzDBnWt09tdNKMDzKvOEhElXRvBI9B1eocSMyoGAGuHpS-U-TUySRQ0lRHEEWw0l-pBulFZbo2fhEG77vcccvoVAGSMNE8Dtl9vV63Rk6SE7eyis_L0DRDMhg4tuQGG92JfgAiM8aiaufC01JMBSUM9gpaESVqoPlIGD7PNtZGAwM3sL0AE1KmTbuos_pGFPw_Or3rFiNSFb33Mzz2Rkyv2eHTWzv49Z0JIVg5fFSfpdlziAeR95aZUUGTWe2E4RQ_ZyI9fGcsVBbJPCjX3NlZ4IlaB22yF33TZKcKtY3CHgiRNtjiOyCaq1ubVmcJEo9TtdUJxNY49xMp9LF29r7k6IEhDpvyubdObqQe5SpoWKrDqD4kIvXliMjTPwNFiZYulyCt7YtOgqgQQqmIC3rFTUZ9xDZ5C15g=w392-h587-no?authuser=0",
+        "https://images.unsplash.com/photo-1608508733949-8d34e056981a?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
-    // {
-    //   id: 5,
-    //   title: "Lorem",
-    //   from: "XII - IPS 2",
-    //   url:
-    //     "https://images.unsplash.com/photo-1608508733949-8d34e056981a?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    // },
     {
       id: 4,
       title: "Lorem",
@@ -157,28 +152,34 @@ export default function Timeline() {
       </div>
       <div className="w-screen masonry bg-white px-2 mt-2 mb-14">
         {photo.map((item) => (
-          <div key={item.id} className="py-1 ">
-            <div className="">
-              <img
-                className="h-full w-full rounded-2xl"
-                src={item.url}
-                alt=""
-              />
+          <Link href="/details">
+            <a key={item.id} className="mb-1">
+              <div className="">
+                <div className="">
+                  <img
+                    className="h-full w-full rounded-2xl"
+                    src={item.url}
+                    alt=""
+                  />
 
-              <div className="flex items-start justify-between">
-                <div>
-                  <div className="text-xs px-1 text-gray-600 font-semibold">
-                    {item.title}
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <div className="text-xs px-1 text-gray-600 font-semibold">
+                        {item.title}
+                      </div>
+                      <div className="text-xs px-1 text-gray-600">
+                        {item.from}
+                      </div>
+                    </div>
+
+                    <div>
+                      <Icon.DotsHorizontal className="h-5 w-5 text-gray-700 pr-1" />
+                    </div>
                   </div>
-                  <div className="text-xs px-1 text-gray-600">{item.from}</div>
-                </div>
-
-                <div>
-                  <Icon.DotsHorizontal className="h-5 w-5 text-gray-700 pr-1" />
                 </div>
               </div>
-            </div>
-          </div>
+            </a>
+          </Link>
         ))}
       </div>
       {navbar && (

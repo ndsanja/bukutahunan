@@ -1,9 +1,9 @@
 import { useState } from "react";
-import * as Icon from "../Icon";
+import * as Icon from "../components/Icon";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function Profile() {
+export default function Details() {
   const router = useRouter();
 
   const [full, setFull] = useState(false);
@@ -133,68 +133,21 @@ export default function Profile() {
     },
   ];
 
-  const photoJul = [
-    {
-      id: 13,
-      title: "Lorem",
-      from: "XII - IPS 2",
-      url:
-        "https://images.unsplash.com/photo-1530099486328-e021101a494a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM0fHxwZW9wbGUlMjBncm91cHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      id: 1,
-      title: "lorem ipsum dolor",
-      from: "XII - IPS 2",
-
-      url:
-        "https://4.bp.blogspot.com/-XVIVnAivjOU/T_7EYWzu26I/AAAAAAAAACA/R032vv6Yr38/s1600/bg+biru.jpg",
-    },
-    {
-      id: 0,
-      title: "lorem ipsum",
-      from: "XII - IPS 2",
-      url:
-        "https://images.unsplash.com/photo-1602415171561-ecb858417200?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8dG93SlpGc2twR2d8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    },
-
-    {
-      id: 4,
-      title: "Lorem",
-      from: "XII - IPS 2",
-      url:
-        "https://lh3.googleusercontent.com/w9cC9eclImGHGa1p7E_l3d6VhTPzfOF9DtrGkSxcN__aEHHpd9Qb_sRwfvELUVrwd-nElC7JlP2sswpC9ivxl0TouKpLb4SUu_ofoefrKdF-hCkOmk7d-PevfyDWFT0fDVUM53Hd6ysfL6p1dnJRPtktjUL7ZDkTnPczd1R99ChfCL3_C2ztWjHDqL0JkfB4dtnJoiVZyVIx09YfgtO4fZb3O_vfqroDPGCOhWoBL4FH6ssFvL9wQj9HJJ5F7MRD1UvOww33N8Q64MysGyvSbu6I9F_vCEFAXrUPYyWjjzHbaUfJcNE2PzDBnWt09tdNKMDzKvOEhElXRvBI9B1eocSMyoGAGuHpS-U-TUySRQ0lRHEEWw0l-pBulFZbo2fhEG77vcccvoVAGSMNE8Dtl9vV63Rk6SE7eyis_L0DRDMhg4tuQGG92JfgAiM8aiaufC01JMBSUM9gpaESVqoPlIGD7PNtZGAwM3sL0AE1KmTbuos_pGFPw_Or3rFiNSFb33Mzz2Rkyv2eHTWzv49Z0JIVg5fFSfpdlziAeR95aZUUGTWe2E4RQ_ZyI9fGcsVBbJPCjX3NlZ4IlaB22yF33TZKcKtY3CHgiRNtjiOyCaq1ubVmcJEo9TtdUJxNY49xMp9LF29r7k6IEhDpvyubdObqQe5SpoWKrDqD4kIvXliMjTPwNFiZYulyCt7YtOgqgQQqmIC3rFTUZ9xDZ5C15g=w392-h587-no?authuser=0",
-    },
-    {
-      id: 6,
-      title: "Lorem",
-      from: "XII - IPS 2",
-      url:
-        "https://images.unsplash.com/photo-1616586169190-fb7ff2abd757?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ0fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      id: 7,
-      title: "Lorem",
-      from: "XII - IPS 2",
-      url:
-        "https://images.unsplash.com/photo-1487613813677-3f382ecb8868?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDY1fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    },
-  ];
-
   const people = [
     {
       nama: "Juliete Rahmawati",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1616268164880-673b3ba611bb?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDExMXx0b3dKWkZza3BHZ3x8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
     {
       nama: "Rian Dwiliyan",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwZmFjZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
     {
       nama: "Romeo Suratman",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1586822339087-80cc375ac083?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwZmFjZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
     {
       nama: "Gabriela Larasati",
@@ -204,17 +157,17 @@ export default function Profile() {
     {
       nama: "Deni Denosa",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1594823823554-b3cf73448d3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fG1hbiUyMGZhY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
     {
       nama: "Katarina Niranana",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8d29tYW4lMjBmYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
     {
       nama: "Joel Juliani",
       url:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBvcnRyYWl0JTIwd29tYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1594369428909-cf575675ca9a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d29tYW4lMjBmYWNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
   ];
 
@@ -230,7 +183,7 @@ export default function Profile() {
         <div className="w-screen rounded-t-3xl overflow-hidden relative">
           <img
             className="h-full w-full"
-            src="https://images.unsplash.com/photo-1616268164880-673b3ba611bb?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDExMXx0b3dKWkZza3BHZ3x8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1530099486328-e021101a494a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM0fHxwZW9wbGUlMjBncm91cHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
           <div>
@@ -239,40 +192,58 @@ export default function Profile() {
         </div>
         <div className="bg-white px-4 py-2 flex flex-col leading-tight">
           <div className=" font-semibold text-gray-700 text-xl">
-            Masih tak lirikin nih
+            Perkantoran Duniawi
           </div>
-          <div className="text-xs">Juliete Rahmawati</div>
+          <div className="text-xs">XII - IPA 4</div>
+          <div className="font-medium text-gray-600 mt-4 text-center">
+            Yang ada di dalam foto ini
+          </div>
         </div>
         <div
-          className={`flex flex-col -space-y-4 bg-white overflow-hidden  ${
+          className={`flex flex-col -space-y-4 bg-white overflow-hidden -mt-2 ${
             full ? "" : "max-h-52"
           }`}
         >
-          <div className="bg-white px-4 py-4 flex items-center justify-between">
-            <div className="flex items-center space-x-1">
-              <div className="h-10 w-10 rounded-full overflow-hidden">
-                <img
-                  className="h-full w-full object-cover object-center"
-                  src="https://images.unsplash.com/photo-1616268164880-673b3ba611bb?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDExMXx0b3dKWkZza3BHZ3x8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                  alt=""
-                />
-              </div>
-              <div>
-                <div className="font-medium text-gray-700">
-                  Juliete Rahmawati
+          {people.map((item) => (
+            <div
+              key={item.nama}
+              className="bg-white px-4 py-4 flex items-center justify-between"
+            >
+              <div className="flex items-center space-x-1">
+                <div className="h-10 w-10 rounded-full overflow-hidden">
+                  <img
+                    className="h-full w-full object-cover object-center"
+                    src={item.url}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div className="font-medium text-gray-700">{item.nama}</div>
                 </div>
               </div>
+              <Link href="/profile">
+                <a>
+                  <div className="bg-gray-200 px-4 py-2 flex items-center justify-center rounded-full font-medium text-gray-700">
+                    Profile
+                  </div>
+                </a>
+              </Link>
             </div>
-            <Link href="/profileDetail">
-              <a>
-                <div className="bg-gray-200 px-4 py-2 flex items-center justify-center rounded-full font-medium text-gray-700">
-                  Details
-                </div>
-              </a>
-            </Link>
-          </div>
+          ))}
         </div>
-
+        <div onClick={() => setFull(!full)} className="bg-white">
+          {full ? (
+            <div className="flex text-gray-600 items-center justify-center bg-white space-x-1 bg-opacity-50 p-1 px-4 rounded-full">
+              <div>Minimalkan</div>
+              <Icon.ChevronUp className="h-4 w-4" />
+            </div>
+          ) : (
+            <div className="flex text-gray-600 items-center justify-center bg-white space-x-1 bg-opacity-50 p-1 px-4 rounded-full">
+              <div>Tampilkan Semua</div>
+              <Icon.ChevronDown className="h-4 w-4" />
+            </div>
+          )}
+        </div>
         <div className="bg-white rounded-b-3xl flex items-center justify-around py-4 px-4 w-full">
           <Icon.Chat className="h-8 w-8 text-gray-600" />
           <div className="bg-red-500 px-4 py-3 rounded-full font-medium text-white">
@@ -291,7 +262,7 @@ export default function Profile() {
             <div className="h-10 w-10 rounded-full overflow-hidden bg-gray-900">
               <img
                 className="h-full w-full object-cover object-center"
-                src="https://images.unsplash.com/photo-1615751755902-13a0845fb9a5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTE5fHx3b21hbiUyMGZhY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60s"
+                src="https://images.unsplash.com/photo-1615751755902-13a0845fb9a5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTE5fHx3b21hbiUyMGZhY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 alt=""
               />
             </div>
@@ -299,9 +270,7 @@ export default function Profile() {
               <div className="font-medium text-gray-700">Diana Mariana</div>
             </div>
           </div>
-          <div className="ml-12 -mt-2 text-gray-600">
-            Cantiq merajalelaaa...
-          </div>
+          <div className="ml-12 -mt-2 text-gray-600">Cantiq nyaaa...</div>
           <div className="h-8"></div>
 
           <div className="flex items-center space-x-2">
@@ -323,45 +292,10 @@ export default function Profile() {
         </div>
       </div>
 
-      <div className="bg-white pt-4 rounded-3xl mt-1">
-        <div className="text-xl font-medium text-center">
-          Terkait Juliete Rahmawati
-        </div>
-        <div className="w-screen masonry bg-white px-2 mt-4 mb-8">
-          {photoJul.map((item) => (
-            <Link href="/details">
-              <a key={item.id} className="mb-1">
-                <div className="">
-                  <div className="">
-                    <img
-                      className="h-full w-full rounded-2xl"
-                      src={item.url}
-                      alt=""
-                    />
-
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <div className="text-xs px-1 text-gray-600 font-semibold">
-                          {item.title}
-                        </div>
-                        <div className="text-xs px-1 text-gray-600">
-                          {item.from}
-                        </div>
-                      </div>
-
-                      <div>
-                        <Icon.DotsHorizontal className="h-5 w-5 text-gray-700 pr-1" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </Link>
-          ))}
-        </div>
-      </div>
-
       <div className="bg-white pb-6 pt-4 rounded-3xl mt-1">
+        <div className="text-xl font-medium text-center">
+          Lainya Seperti Ini
+        </div>
         <div className="w-screen masonry bg-white px-2 mt-4 mb-14">
           {photo.map((item) => (
             <Link href="/details">
