@@ -79,7 +79,7 @@ export default function Timeline() {
       title: "Lorem",
       from: "XII - IPS 2",
       url:
-        "https://lh3.googleusercontent.com/wmVG8LnDFWwXGxVlaFIhwSmqz1YiAY_Amq4KRuRuCEcz0zpZ-MmL0SO1GevIZxK_PThTBLxmUTpay7_ogNKAp6GoJtOI1SaHcPucfHzLee_BR0w-mFh_fk__ZUqirtsYs3cdSa2z3g-PSWvAGFA6Pz7SXQTU4_yEtZjyqRWWNPasV4JrKz3AqqQJhl4Q9i2uk2Ckq-7g1dwirOd-bM1gHBD8CFY9ErxDySWVxs8kXiCsow6ev7LDGzTyuoVgUxLf8xq7QJJYSS2tT2eQXpatcnqMS0PhCdXyOXtV7IXuBFl1JCDH3yFUrQZIyl0vcOzHw1PSIanpn8xqKVM2v6FIG_xeETBrbdpf3inWwVi5S_BIw0Vz_Dtr_DwmN1vbtAgSoaLXi-UnFO4V-VV6SWYN7sMto-O6ygDVr81Qdmjbb8Eb-O1ou0kILMBs9l_uIrUI1LQXW8LKOAj2zcF5ysPkuNaCq8UD6a-G00cE1w5Pq1pSFKwWon1bwVUIvbiTFhdmHgUjFge2ndhTW8JWr10j04x-AyNqKijKzDHjz_M-_SXIaPMMoV_L7876utOSR2Mu22vz2LIVT6mwVVmUcybD5APZfO5jDqtth7_5KBQJK79KGKRb4rJ7GjU8IdsVlPQLV0epMT7sLuu1IZGLpqMKWFg6jg5ZZbxAX3Ldfu9xWHZ8PcrPQaVQ5cLrSGiCvJtO9wCil7kYUXrzSO1ssMVK6_Y=w429-h643-no?authuser=0",
+        "https://previews.dropbox.com/p/thumb/ABEJxxriPE1yDeD4uhZlQY7a9BrDu0hFV1y7erL2nCQy_U_c2i7z_let0jy5lmidQ3PVJrXA9pSALYWajNZ2ZznkZh_shg4eqnN95-JPY1G3rqHbngf1VwbpEUAzCY_oHThL401OdLgTRz8PgUHkAkteKiIJyAjbnzF_Gj3rA8Sh5D9CAAA0WyIsfUJkzA1o0kCjq_inYgyG7XwlICvTUeNS97HRx_EJIppEGUBDkkfw2nKEImB4ak2rKMwsl18M3YBUi5atHGmbYxlv-36xaf-YmbvXy_0AURRPZdCWSMzix9umz-SLXOhrfqosUmGSiW-E0-_luxWmimRiZBdxlnc2zMR50FLbQsO_HnvisPbJfQyH2tPmkESVvywCdHq0J9s/p.jpeg?fv_content=true&size_mode=5",
     },
     {
       id: 6,
