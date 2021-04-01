@@ -74,11 +74,12 @@ export default function Timeline() {
       url:
         "https://images.unsplash.com/photo-1608508733949-8d34e056981a?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fHRvd0paRnNrcEdnfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     },
+
     {
       id: 4,
       title: "Lorem",
       from: "XII - IPS 2",
-      url: "https://live.staticflickr.com/65535/51018505075_d1aaedb2f3_k.jpg",
+      url: "https://live.staticflickr.com/65535/51018505075_873b235b36_o.jpg",
     },
     {
       id: 6,

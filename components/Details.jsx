@@ -78,7 +78,7 @@ export default function Details() {
       id: 4,
       title: "Lorem",
       from: "XII - IPS 2",
-      url: "https://live.staticflickr.com/65535/51018505075_d1aaedb2f3_k.jpg",
+      url: "https://live.staticflickr.com/65535/51018505075_873b235b36_o.jpg",
     },
     {
       id: 6,
