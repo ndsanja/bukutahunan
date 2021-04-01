@@ -78,8 +78,7 @@ export default function Profile() {
       id: 4,
       title: "Lorem",
       from: "XII - IPS 2",
-      url:
-        "https://lh3.googleusercontent.com/wmVG8LnDFWwXGxVlaFIhwSmqz1YiAY_Amq4KRuRuCEcz0zpZ-MmL0SO1GevIZxK_PThTBLxmUTpay7_ogNKAp6GoJtOI1SaHcPucfHzLee_BR0w-mFh_fk__ZUqirtsYs3cdSa2z3g-PSWvAGFA6Pz7SXQTU4_yEtZjyqRWWNPasV4JrKz3AqqQJhl4Q9i2uk2Ckq-7g1dwirOd-bM1gHBD8CFY9ErxDySWVxs8kXiCsow6ev7LDGzTyuoVgUxLf8xq7QJJYSS2tT2eQXpatcnqMS0PhCdXyOXtV7IXuBFl1JCDH3yFUrQZIyl0vcOzHw1PSIanpn8xqKVM2v6FIG_xeETBrbdpf3inWwVi5S_BIw0Vz_Dtr_DwmN1vbtAgSoaLXi-UnFO4V-VV6SWYN7sMto-O6ygDVr81Qdmjbb8Eb-O1ou0kILMBs9l_uIrUI1LQXW8LKOAj2zcF5ysPkuNaCq8UD6a-G00cE1w5Pq1pSFKwWon1bwVUIvbiTFhdmHgUjFge2ndhTW8JWr10j04x-AyNqKijKzDHjz_M-_SXIaPMMoV_L7876utOSR2Mu22vz2LIVT6mwVVmUcybD5APZfO5jDqtth7_5KBQJK79KGKRb4rJ7GjU8IdsVlPQLV0epMT7sLuu1IZGLpqMKWFg6jg5ZZbxAX3Ldfu9xWHZ8PcrPQaVQ5cLrSGiCvJtO9wCil7kYUXrzSO1ssMVK6_Y=w429-h643-no?authuser=0",
+      url: "https://live.staticflickr.com/65535/51018505075_d1aaedb2f3_k.jpg",
     },
     {
       id: 6,

@@ -78,8 +78,7 @@ export default function Timeline() {
       id: 4,
       title: "Lorem",
       from: "XII - IPS 2",
-      url:
-        "https://previews.dropbox.com/p/thumb/ABEJxxriPE1yDeD4uhZlQY7a9BrDu0hFV1y7erL2nCQy_U_c2i7z_let0jy5lmidQ3PVJrXA9pSALYWajNZ2ZznkZh_shg4eqnN95-JPY1G3rqHbngf1VwbpEUAzCY_oHThL401OdLgTRz8PgUHkAkteKiIJyAjbnzF_Gj3rA8Sh5D9CAAA0WyIsfUJkzA1o0kCjq_inYgyG7XwlICvTUeNS97HRx_EJIppEGUBDkkfw2nKEImB4ak2rKMwsl18M3YBUi5atHGmbYxlv-36xaf-YmbvXy_0AURRPZdCWSMzix9umz-SLXOhrfqosUmGSiW-E0-_luxWmimRiZBdxlnc2zMR50FLbQsO_HnvisPbJfQyH2tPmkESVvywCdHq0J9s/p.jpeg?fv_content=true&size_mode=5",
+      url: "https://live.staticflickr.com/65535/51018505075_d1aaedb2f3_k.jpg",
     },
     {
       id: 6,
